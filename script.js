@@ -1,5 +1,6 @@
 "use strict";
 
+//#region Recap
 /*
 let hasDriversLicense = false;
 const passTest = true;
@@ -11,7 +12,9 @@ if (hasDriversLicense) console.log("I can drive :D");
 //const private = 534;
 //const if = 23;
 */
+//#endregion
 
+//#region Functions
 /*
 function logger() {
   console.log("My name is Jonas");
@@ -35,7 +38,9 @@ console.log(appleOrangeJuice);
 
 const num = Number("23");
 */
+//#endregion
 
+//#region Function Declarations and Expressions
 /*
 // Function declaration
 function calcAge1(birthYear) {
@@ -51,7 +56,9 @@ const age2 = calcAge2(1991);
 
 console.log(age1, age2);
 */
+//#endregion
 
+//#region Arrow Functions
 /*
 // Arrow function
 const calcAge3 = (birthYear) => 2037 - birthYear;
@@ -68,3 +75,4 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1991, "Jonas"));
 console.log(yearsUntilRetirement(1980, "Bob"));
 */
+//#endregion
