@@ -1,5 +1,6 @@
 "use strict";
 
+//#region Functions
 /*
 function describeCountry(country, population, capitalCity) {
   const text = `${country} has ${population} people and its capital city is ${capitalCity}`;
@@ -15,7 +16,9 @@ console.log(sweden);
 const norway = describeCountry("Norway", 5400000, "Oslo");
 console.log(norway);
 */
+//#endregion
 
+//#region Function Declarations vs. Expressions
 /*
 // Function Declaration
 function percentageOfWorld1(population) {
@@ -37,7 +40,9 @@ const percSweden2 = percentageOfWorld2(5);
 
 console.log(percDenmark1, percUSA1, percSweden1, percDenmark2, percUSA2, percSweden2);
 */
+//#endregion
 
+//#region Arrow Functions
 /*
 // Arrow function
 const percentageOfWorld3 = (population) => (population / 7900) * 100;
@@ -47,3 +52,4 @@ const percUSA3 = percentageOfWorld3(331);
 const percSweden3 = percentageOfWorld3(5);
 console.log(percDenmark3, percUSA3, percSweden3);
 */
+//#endregion
