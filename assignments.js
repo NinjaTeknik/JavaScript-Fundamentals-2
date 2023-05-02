@@ -22,12 +22,12 @@ console.log(norway);
 /*
 // Function Declaration
 function percentageOfWorld1(population) {
-  return (population / 7900) * 100;
+  return (population / 8000) * 100;
 }
 
 // Function Expression
 const percentageOfWorld2 = function (population) {
-  return (population / 7900) * 100;
+  return (population / 8000) * 100;
 };
 
 const percDenmark1 = percentageOfWorld1(6);
@@ -38,18 +38,38 @@ const percDenmark2 = percentageOfWorld2(6);
 const percUSA2 = percentageOfWorld2(331);
 const percSweden2 = percentageOfWorld2(5);
 
-console.log(percDenmark1, percUSA1, percSweden1, percDenmark2, percUSA2, percSweden2);
+console.log(
+  percDenmark1,
+  percUSA1,
+  percSweden1,
+  percDenmark2,
+  percUSA2,
+  percSweden2
+);
 */
 //#endregion
 
 //#region Arrow Functions
 /*
 // Arrow function
-const percentageOfWorld3 = (population) => (population / 7900) * 100;
+const percentageOfWorld3 = (population) => (population / 8000) * 100;
 
 const percDenmark3 = percentageOfWorld3(6);
 const percUSA3 = percentageOfWorld3(331);
 const percSweden3 = percentageOfWorld3(5);
 console.log(percDenmark3, percUSA3, percSweden3);
 */
+//#endregion
+
+//#region Functions Calling Other Functions
+const describePopulation = function (country, population) {
+  const percentage = percentageOfWorld1(population);
+  const description = `${country} has ${population} million people,
+  which is about ${percentage}% of the world`;
+  return description;
+};
+
+console.log(describePopulation("Japan", 125));
+console.log(describePopulation("Prague", 1));
+console.log(describePopulation("France", 68));
 //#endregion

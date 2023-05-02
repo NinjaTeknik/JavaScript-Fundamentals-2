@@ -40,7 +40,7 @@ const num = Number("23");
 */
 //#endregion
 
-//#region Function Declarations and Expressions
+//#region Function Declarations vs. Expressions
 /*
 // Function declaration
 function calcAge1(birthYear) {
