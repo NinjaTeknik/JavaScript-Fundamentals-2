@@ -62,6 +62,7 @@ console.log(percDenmark3, percUSA3, percSweden3);
 //#endregion
 
 //#region Functions Calling Other Functions
+/*
 const describePopulation = function (country, population) {
   const percentage = percentageOfWorld1(population);
   const description = `${country} has ${population} million people,
@@ -72,4 +73,5 @@ const describePopulation = function (country, population) {
 console.log(describePopulation("Japan", 125));
 console.log(describePopulation("Prague", 1));
 console.log(describePopulation("France", 68));
+*/
 //#endregion
